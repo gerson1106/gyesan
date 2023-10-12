@@ -12,7 +12,7 @@ from smooth_tiled_predictions import *
 import time
 CUDA_VISIBLE_DEVICES=0,1
 st.set_page_config(page_icon="🌳", page_title="G&ESan-SEGMENTACIÓN", layout="wide")
-logo="C:/Users/gerso/OneDrive/Escritorio/aws/logo-udi-negro.png"
+logo="logo-udi-negro.png"
 imagen1 = np.array(Image.open(logo))
 st.image(imagen1,width=350, use_column_width=False)
 st.markdown(
@@ -47,7 +47,7 @@ col4, col5 = st.columns([2,2])
 with col4:
  st.markdown('<p style="color: black;">El páramo de Santurbán, ubicado en Santander-Norte de Santander, es un ecosistema de gran importancia debido a su biodiversidad y su función como fuente de agua dulce para comunidades locales. Este ecosistema alberga especies endémicas y regula el flujo de agua, contribuyendo a la seguridad hídrica. Su delimitación y conservación son esenciales para preservar la biodiversidad, garantizar la calidad del agua y mitigar el cambio climático, destacando la necesidad de políticas de conservación y desarrollo sostenible en la región, la delimitación y conservación del páramo de Santurbán son esenciales para preservar esta riqueza de biodiversidad y garantizar la calidad del agua que fluye de sus tierras hacia las comunidades locales. Además, su conservación desempeña un papel vital en la mitigación del cambio climático, ya que actúa como sumidero de carbono, ayudando a reducir la concentración de gases de efecto invernadero en la atmósfera.</p>', unsafe_allow_html=True)    
 with col5:
-  ima="C:/Users/gerso/OneDrive/Escritorio/aws/param.jpeg"
+  ima="param.jpeg"
   imagen = np.array(Image.open(ima))
   st.image(imagen, caption="Laguna de las Calles", use_column_width=True)
 st.markdown("<h2 style='color: black;'>¿Que es la segmentación y como funciona?</h2>", unsafe_allow_html=True)
@@ -66,7 +66,7 @@ st.markdown("""
 La segmentación es un proceso en el campo de la visión por computadora que se utiliza para dividir o separar una imagen en partes significativas o regiones con características similares. Es como dividir una imagen en diferentes "pedazos" que contienen objetos o elementos que queremos identificar o analizar por separado. Este método es útil en muchas aplicaciones, como reconocimiento de objetos, medicina, procesamiento de imágenes y más, ya que permite comprender y trabajar con partes específicas de una imagen en lugar de tratarla como un conjunto completo. Funciona seleccionando características visuales y aplicando algoritmos para separar la imagen en regiones relevantes.
 </p>
 """, unsafe_allow_html=True)
-seg = "C:/Users/gerso/OneDrive/Escritorio/aws/segmen.jpeg"
+seg = "segmen.jpeg"
 imagen2 = Image.open(seg)
 
 # Crea tres columnas
@@ -114,7 +114,7 @@ st.markdown("")
 st.markdown("")
 # URL del video (o ruta local del archivo de video)
 
-video_url = "C:/Users/gerso/OneDrive/Escritorio/aws/Google_earth.mp4"  # Reemplaza con la URL o ruta de tu video
+video_url = "Google_earth.mp4"  # Reemplaza con la URL o ruta de tu video
 container_width = 480  # Puedes cambiar este valor según lo desees
 container_height = 270  # Puedes cambiar este valor según lo desees
 
@@ -187,7 +187,7 @@ with c30:
     input_img = scaler.fit_transform(img.reshape(-1, img.shape[-1])).reshape(img.shape)
 
 
-    model = tf.keras.models.load_model('C:/Users/gerso/OneDrive/Escritorio/aws/modelo_200_img_120_epc.hdf5', compile=False)
+    model = tf.keras.models.load_model('modelo_200_img_120_epc.hdf5', compile=False)
 
     with c30:
       with col1:
