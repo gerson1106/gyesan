@@ -85,11 +85,11 @@ st.markdown("")
 st.markdown("")
 st.markdown("""
 <p class='texto-negro'>
-🟩 Forestacion Alta: Para esta clasificación se llevo a cabo la etiquetación de zonas con abundante vegetación con respecto a concentraciónes de arboles y ciertas zonas con tonalidades de verde oscuro.
+🟩 Forestación Alta: Para esta clasificación se llevó a cabo la etiquetación de zonas con abundante vegetación con respecto a concentraciones de árboles y ciertas zonas con tonalidades de verde oscuro.
 """, unsafe_allow_html=True)
 st.markdown("""
 <p class='texto-negro'>
-🟨 Forestacion Baja: Esta caracterización comprende lugares con baja vegetación o vegetación muy dispersa y zonas con tonalidades de verdes claros.
+🟨 Forestación Baja: Esta caracterización comprende lugares con baja vegetación o vegetación muy dispersa y zonas con tonalidades de verdes claros.
 </p>
 """, unsafe_allow_html=True)
 st.markdown("""
@@ -99,12 +99,12 @@ st.markdown("""
 """, unsafe_allow_html=True)
 st.markdown("""
 <p class='texto-negro'>
-🟦 Cultivos: Esta representación segmentada corresponde a todo lo referente a los diferentes cultivos caracteristicos de la zona como lo es la cebolla, la papa, etc.
+🟦 Cultivos: Esta representación segmentada corresponde a todo lo referente a los diferentes cultivos característicos de la zona como lo es la cebolla, la papa, etc.
 </p>
 """, unsafe_allow_html=True)
 st.markdown("""
 <p class='texto-negro'>
-🟪 Lagunas: La representacion de la etiquetación de lagunas es referente al agua especificamente de las lagunas.
+🟪 Lagunas: La representación de la etiquetación de lagunas es referente al agua específicamente de las lagunas.
 </p>
 """, unsafe_allow_html=True)
 st.markdown("""
