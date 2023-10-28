@@ -53,7 +53,7 @@ with col5:
   ima="param.jpeg"
   imagen = np.array(Image.open(ima))
   st.image(imagen, caption="Laguna de las Calles", use_column_width=True)
-st.markdown("<h2 style='color: black;'>¿Que es la segmentación y como funciona?</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='color: black;'>¿Que es la segmentación y cómo funciona?</h2>", unsafe_allow_html=True)
 st.markdown(
     """
     <style>
